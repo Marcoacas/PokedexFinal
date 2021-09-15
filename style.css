@@ -1,0 +1,38 @@
+body{
+  background: black;
+}
+.imagen{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 20%;
+}
+
+#imagenPokemon{
+  position: relative;
+  top: 220px;
+  left: 390px
+}
+#imagenPokemon img{
+  width: 200px;
+  height: 200px;
+}
+
+#datosPokemon{
+  position: relative;
+  height: 200px;
+  width: 400px;
+  top: 20px;
+  left: 750px;
+  color: black;
+  text-align: justify;
+  font-family: fuentePokemon;
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "fuentePokemon";
+  src: url(PokemonSolid.ttf);
+}
+#fuentePersonalizada{
+  font-family: "fuentePokemon";
+}
